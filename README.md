@@ -28,4 +28,7 @@ dvc add data_given\winequality.csv
 git add .
 git commit -m "First Commit"
 
-8.
+8.Adding the files into remote repository
+git remote add origin git@github.com:Yashwanth-Ram/new_app_dvc.git
+git branch -M main
+git push origin main

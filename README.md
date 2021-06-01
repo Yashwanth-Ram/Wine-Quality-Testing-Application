@@ -16,3 +16,16 @@ notepad template.py
 
 4.Download the winequality dataset from drive
 https://drive.google.com/drive/folders/18zqQiCJVgF7uzXgfbIJ-04zgz1ItNfF5
+
+5.Initialize git and dvc
+git init
+dvc init
+
+6.Add data to DVC
+dvc add data_given\winequality.csv
+
+7.Adding code and files to git repository
+git add .
+git commit -m "First Commit"
+
+8.

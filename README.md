@@ -32,3 +32,11 @@ git commit -m "First Commit"
 git remote add origin git@github.com:Yashwanth-Ram/new_app_dvc.git
 git branch -M main
 git push origin main
+
+
+
+Create tox.ini mentioning the python version and packages to be installed
+create new older called tests and add files conftest.py and test_config.py
+Mention the what needs to be tested in test_config.py
+Run the command pytest -v to run the tests
+Also run tox to install the packages in python version and run the tests automatically

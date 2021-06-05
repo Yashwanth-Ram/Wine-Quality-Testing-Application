@@ -40,3 +40,12 @@ create new older called tests and add files conftest.py and test_config.py
 Mention the what needs to be tested in test_config.py
 Run the command pytest -v to run the tests
 Also run tox to install the packages in python version and run the tests automatically
+tox
+tox -r
+pytest -v
+
+Setup commands
+pip install -e .
+
+build your own package
+python setup.py sdist bdist_wheel
